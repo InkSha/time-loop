@@ -1,0 +1,40 @@
+{
+  "name": "@inksha/timeloop",
+  "version": "1.0.0",
+  "type": "module",
+  "author": {
+    "name": "inksha"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "timeloop",
+    "loop",
+    "utils",
+    "typescript"
+  ],
+  "repository": {
+    "url": "https://github.com/inksha/time-loop",
+    "type": "git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch",
+    "test": "rstest"
+  },
+  "devDependencies": {
+    "@rslib/core": "^0.13.2",
+    "@rstest/core": "^0.3.3",
+    "@types/node": "^22.18.1",
+    "typescript": "^5.9.2"
+  }
+}
