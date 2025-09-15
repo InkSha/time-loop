@@ -1,5 +1,7 @@
 # Timeloop
 
+A lightweight and simple time loop library.
+
 ## Install
 
 ```bash
